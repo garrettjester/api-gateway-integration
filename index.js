@@ -100,8 +100,8 @@ async function addIntegration(resourceId, lambdaArn) {
 
 
 async function deleteEndpoints() {
-    
-     apigateway.getResources();
+    console.log('Delete')
+    // apigateway.getResources();
 
 }
 

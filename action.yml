@@ -1,8 +1,14 @@
 name: 'Express Lambda CI'
 description: 'Deploy functions to AWS Lambda and configure proxy integrations.'
 inputs:
-  token:
-    desription: 'The github token for the repo'
+  parentId:
+    description: 'The ID of the root path resource in API Gateway.'
+    required: true
+  apiId: 
+    description: 'The ID of the API Gateway API to configure endpoints.'
+    required: true
+  env:
+    desription: 'The development environment to deploy to.'
     required: true
 outputs: 
   arns:
