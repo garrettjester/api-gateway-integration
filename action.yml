@@ -1,4 +1,4 @@
-name: 'Express Lambda CI'
+name: 'Automated Lambda Proxy Integration'
 description: 'Deploy functions to AWS Lambda and configure proxy integrations.'
 inputs:
   parentId:
