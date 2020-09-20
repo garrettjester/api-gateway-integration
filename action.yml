@@ -1,0 +1,12 @@
+name: 'Express Lambda CI'
+description: 'Deploy functions to AWS Lambda and configure proxy integrations.'
+inputs:
+  token:
+    desription: 'The github token for the repo'
+    required: true
+outputs: 
+  arns:
+    description: 'The updated Lambda function ARNs'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

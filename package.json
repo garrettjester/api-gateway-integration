@@ -1,0 +1,26 @@
+{
+  "name": "api-gateway-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garrettjester/api-gateway-integration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garrettjester/api-gateway-integration/issues"
+  },
+  "homepage": "https://github.com/garrettjester/api-gateway-integration#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.5",
+    "@actions/github": "^4.0.0",
+    "@zeit/ncc": "^0.22.3",
+    "aws-sdk": "^2.756.0"
+  }
+}
